@@ -1,0 +1,279 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+body{
+    font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+    font-size:14px;
+    color:#333;
+    line-height:1.9;
+    text-align:left;
+}
+
+a{
+    text-decoration:none;
+    color:#333333;
+}
+
+ul {
+    list-style:none;
+}
+
+.container{
+    width:90%;
+    margin:0 auto;
+}
+
+header{
+    padding:100px 0px 80px 0px;
+}
+
+.header-left{
+    float:left;
+    display:flex;
+    width:100%;
+}
+
+.header-left h1{
+    font-size:40px;
+    letter-spacing:3px;
+}
+
+.header-left ul{
+    padding-left: 22%;
+}
+
+.header-left li{
+    float:left;
+    font-size:20px;
+    padding:25px 30px 0px 30px;
+    letter-spacing:2px;
+}
+
+.header-left li:hover{
+    opacity: 0.5;
+}
+
+.header-right{
+   position:fixed;
+   left:650px;
+}
+
+.mainimg{
+    width:100%;
+    height:900px;
+    object-fit:cover;
+}
+
+.main-logo{
+    font-size:50px;
+    font-family: 'Lato', sans-serif;
+    font-weight:lighter;
+    text-align:center;
+    letter-spacing: 10px;
+    padding:100px 0px 60px 0px;
+}
+
+.contents{
+    display:flex;
+}
+
+.myphoto img{
+    width:350px;
+}
+
+.about-text{
+    font-size: 25px;
+    padding-left:80px;
+    font-weight:500;
+}
+
+.name2{
+    padding-left:50px;
+}
+
+.main-text{
+    font-size:18px;
+    padding-top:70px;
+    line-height:50px;
+}
+
+.skill-wrapper{
+    padding-bottom:30px;
+}
+
+.skill {
+    margin-left:30px;
+    border: 3px solid rgba(0, 0, 0, 0.377);
+    box-shadow: 8px 8px #ccc;
+    padding:10px 60% 10px 20px;
+    display:inline-block;
+}
+
+.skill-detail{
+    font-size:30px;
+    font-weight:600;
+    opacity:0.7;
+}
+
+.skill-text{
+    font-size:20px;
+}
+
+.work-wrapper p{
+    text-align:center;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.work-contents img{
+    width:45%;
+    margin:2% 2%;
+    border:solid 1px #e0e0e0;
+}
+
+.work-contents img:hover{
+    opacity:0.5;
+}
+
+.work-contents{
+    text-align:center;
+}
+
+.contact-wrapper p{
+    text-align:center;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.contact-menu{
+    text-align:center;
+    padding-top:50px;
+}
+
+.contact-menu a{
+    padding:0 7%;
+    opacity:0.7;
+}
+
+.contact-menu a:hover{
+    opacity:1;
+}
+
+footer{
+    padding:120px 0 70px 0;
+}
+
+.footer-right ul{
+    padding:0 0 80px 20px;
+}
+
+.footer-right li{
+    float:left;
+    font-size:20px;
+    padding:25px 30px 0px 30px;
+    letter-spacing:2px;
+}
+
+.footer-right li:hover{
+    text-decoration: underline;
+}
